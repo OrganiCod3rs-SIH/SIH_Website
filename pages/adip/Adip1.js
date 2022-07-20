@@ -5,7 +5,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const PdfLink =
-  "https://raw.githubusercontent.com/aman-raza/img/02820b6175b05b60c0bf10d98e8065e5e852f57c/Resume.pdf";
+  "https://raw.githubusercontent.com/aman-raza/img/ddd78b04a08f626c8acb6a65e0a1208657c87068/Microsoft%20Word%20-%20Revise%20ADIP%20Scheme.doc.pdf";
+  //https://raw.githubusercontent.com/aman-raza/img/02820b6175b05b60c0bf10d98e8065e5e852f57c/Resume.pdf
   // http://organicoders.epizy.com/ADIP/pdfs/adip1.pdf
 
 function Adip1() {
