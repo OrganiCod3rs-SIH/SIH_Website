@@ -25,6 +25,16 @@ function Adip1() {
         <row>
           <Document file={PdfLink}>
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={2} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={3} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={4} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={5} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={6} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={7} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={8} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={9} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={10} scale={width > 786 ? 1.7 : 0.6} />
+            <Page pageNumber={32} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </row>
       </div>
