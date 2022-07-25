@@ -11,16 +11,20 @@ export default function Home() {
     const googleTranslateElementInit = () => {
 
         new window.google.translate.TranslateElement({
-            // pageLanguage: 'en',
-            // includedLanguages : "en,ms,ta,zh-CN", // include this for selected languages
+            pageLanguage: 'en',
+            includedLanguages : "en,mr,hi,bn,ta,te", // include this for selected languages
             layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         },
         'google_translate_element');
   }
   return (
     <>
+    <div id="button-translate" style={{"textAlign":"center"}}>
       <div id="google_translate_element"></div>
+    </div>
+     
       <div>
+        <img src=""/>
         <h1>- Autobiography Of APJ Abdul Kalam -</h1>
         <p>
           A.P.J. Abdul Kalam, in full Avul Pakir Jainulabdeen Abdul Kalam, (born
@@ -29,6 +33,7 @@ export default function Home() {
           development of India’s missile and nuclear weapons programs.He was
           president of India from 2002 to 2007.
         </p>
+        {/* <div id="google_translate_element2"></div> */}
         <p>
           Kalam earned a degree in aeronautical engineering from the Madras
           Institute of Technology and in 1958 joined the Defence Research and
